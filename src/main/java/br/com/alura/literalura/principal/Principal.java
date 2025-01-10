@@ -128,8 +128,7 @@ public class Principal {
 
                             // Criando o livro e associando o autor
                             Livro livro = new Livro(titulo, autor, idioma, numeroDownloads);
-                            livro = new Livro();
-                            autor = livro.getAutor();  // Verifique o autor
+                           
                             if (autor == null) {
                                 System.out.println("O autor não foi atribuído!");
                             }
