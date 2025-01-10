@@ -22,6 +22,10 @@ public class Livro {
     }
 
     public Livro(String titulo, Autor autor, String idioma, int numeroDownloads) {
+         this.titulo = titulo;
+        this.autor = autor;
+        this.idioma = idioma;
+        this.numeroDownloads = numeroDownloads;
     }
 
     public Long getId() {
@@ -50,12 +54,6 @@ public class Livro {
 
     public void setAutor(Autor autor) {
         this.autor = autor;
-    }
-
-    public Livro(Autor autor, String idioma, String titulo) {
-        this.autor = autor;
-        this.idioma = idioma;
-        this.titulo = titulo;
     }
 
     public void setNumeroDownloads(int numeroDownloads) {
