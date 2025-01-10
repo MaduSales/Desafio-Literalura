@@ -22,7 +22,7 @@ public class Livro {
     }
 
     public Livro(String titulo, Autor autor, String idioma, int numeroDownloads) {
-         this.titulo = titulo;
+        this.titulo = titulo;
         this.autor = autor;
         this.idioma = idioma;
         this.numeroDownloads = numeroDownloads;
@@ -62,12 +62,5 @@ public class Livro {
 
     public int getNumeroDownloads() {
         return numeroDownloads;
-    }
-
-    public Livro(String titulo, String idioma, int numeroDownloads, Autor autor) {
-        this.titulo = titulo;
-        this.idioma = idioma;
-        this.numeroDownloads = numeroDownloads;
-        this.autor = autor;
     }
 }
